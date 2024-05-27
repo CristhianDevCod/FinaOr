@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Definición de un estilo personalizado -->
+    <style name="texto_centrado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/negro</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tx_grande_1</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="android:layout_margin">@dimen/mg_pequeno</item>
+    </style>
+
+    <style name="campo_entrada">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">@dimen/tx_grande_2</item>
+        <item name="android:textColor">@color/blanco</item> <!-- Color de la letra blanco -->
+        <item name="android:background">@drawable/campo_entrada</item> <!-- Color de fondo -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:gravity">center</item> <!-- Contenido centrado -->
+    </style>
+
+    <style name="campo_entrada_resaltado">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item> <!-- Altura -->
+        <item name="android:textSize">@dimen/tx_grande_2</item>
+        <item name="android:textColor">@color/blanco</item> <!-- Color de la letra blanco -->
+        <item name="android:background">@drawable/campo_entrada_resaltado</item> <!-- Color de fondo naranja -->
+        <item name="android:padding">5dp</item> <!-- Padding interno -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:gravity">center</item> <!-- Contenido centrado -->
+        <item name="android:layout_margin">5dp</item> <!-- Margen alrededor del elemento -->
+    </style>
+
+    <style name="campo_entrada_presupuesto">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">@dimen/tx_grande_2</item>
+        <item name="android:textColor">@color/negro</item> <!-- Color de la letra blanco -->
+        <item name="android:background">@drawable/campo_presupuesto</item> <!-- Color de fondo naranja -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:gravity">center</item> <!-- Contenido centrado -->
+        <item name="android:layout_margin">10dp</item> <!-- Margen alrededor del elemento -->
+    </style>
+
+    <style name="base_datos">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">@dimen/tx_grande_2</item>
+        <item name="android:textColor">@color/negro</item> <!-- Color de la letra blanco -->
+        <item name="android:background">@drawable/fondo_db</item> <!-- Color de fondo naranja -->
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:gravity">center</item> <!-- Contenido centrado -->
+        <item name="android:layout_margin">5dp</item> <!-- Margen alrededor del elemento -->
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="categoria">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textSize">@dimen/tx_grande_2</item>
+        <item name="android:gravity">center</item> <!-- Contenido centrado -->
+        <item name="android:padding">5dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ActividadElectiva</string>
+    <string name="presupuesto_inicial">Presupuesto Inicial</string>
+    <string name="valor_generico">1.000.000</string>
+    <string name="presupuesto_actual">Presupuesto actual</string>
+    <string name="acceso_a_historial_de_gastos">Acceso a historial de gastos</string>
+    <string name="ingresa_tu_gasto">Ingresa tu gasto</string>
+    <string name="introduce_tu_gasto">Introduce tu gasto aquí</string>
+    <string name="cantidad_defecto">1</string>
+    <string name="categoria_comida">categoria_comida</string>
+    <string name="introducir">Introducir</string>
+    <string name="historial_de_gastos">Historial de gastos</string>
+</resources>

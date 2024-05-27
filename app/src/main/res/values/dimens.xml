@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mg_pequeno">8dp</dimen>
+    <dimen name="mg_medio">16dp</dimen>
+    <dimen name="mg_grande">32dp</dimen>
+    <dimen name="mg_grande_1">64dp</dimen>
+    <dimen name="mg_grande_2">128dp</dimen>
+
+    <dimen name="tx_pequeno">8sp</dimen>
+    <dimen name="tx_medio">16sp</dimen>
+    <dimen name="tx_grande_1">25sp</dimen>
+    <dimen name="tx_grande_2">35sp</dimen>
+    <dimen name="tx_grande_3">45sp</dimen>
+    <dimen name="tx_grande_4">70sp</dimen>
+
+    <dimen name="pd_pequeno">16dp</dimen>
+    <dimen name="pd_medio">32dp</dimen>
+    <dimen name="pd_grande">45dp</dimen>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/blanco_suave"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPresupuesto_inicial_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/presupuesto_inicial"
+        style="@style/texto_centrado"/>
+
+    <TextView
+        android:id="@+id/tvPresupuesto_inicial"
+        style="@style/campo_entrada_presupuesto"
+        tools:text="@string/valor_generico"/>
+
+    <TextView
+        android:id="@+id/tvPresupuesto_actual_texto"
+        android:text="@string/presupuesto_actual"
+        style="@style/texto_centrado"/>
+
+    <TextView
+        android:id="@+id/tvPresupuesto_actual"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/campo_entrada"
+        tools:text="@string/valor_generico"/>
+
+    <ImageView
+        android:id="@+id/btn_historial"
+        style="@style/base_datos"
+        android:contentDescription="@string/acceso_a_historial_de_gastos"
+        app:srcCompat="@drawable/dise_o_sin_t_tulo"/>
+
+
+    <!-- Contenedor ingreso de gastos -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/texto_ingreso_gasto"
+            android:text="@string/ingresa_tu_gasto"
+            style="@style/texto_centrado"/>
+
+        <EditText
+            style="@style/campo_entrada_resaltado"
+            tools:text="1.000.000"
+            android:hint="@string/introduce_tu_gasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Cantidad y fecha -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tvCantidadArticulos"
+                tools:text="X 1"
+                android:text="@string/cantidad_defecto"
+                android:padding="15dp"
+                style="@style/campo_entrada_resaltado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_ingreso_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/texto_centrado"
+                android:textColor="@color/blanco"
+                android:text="Fecha"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Contenedor tipo de gasto -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTipoGasto"
+            style="@style/texto_centrado"
+            android:text="Tipo de gasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <!-- Categoria de gasto -->
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                style="@style/categoria"
+                android:contentDescription="@string/categoria_comida"
+                app:srcCompat="@drawable/comida"/>
+
+            <ImageView
+                style="@style/categoria"
+                android:contentDescription="@string/categoria_comida"
+                app:srcCompat="@drawable/entretenimiento"/>
+
+            <ImageView
+                style="@style/categoria"
+                android:contentDescription="@string/categoria_comida"
+                app:srcCompat="@drawable/hogar"/>
+
+            <ImageView
+                style="@style/categoria"
+                android:contentDescription="@string/categoria_comida"
+                app:srcCompat="@drawable/educacion"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_introducir_gasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/texto_centrado"
+        android:textColor="@color/blanco"
+        android:text="@string/introducir"/>
+</LinearLayout>
