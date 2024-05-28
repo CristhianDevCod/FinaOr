@@ -17,6 +17,7 @@
         style="@style/texto_centrado"/>
 
     <TextView
+        android:hint="presupuesto inicial"
         android:id="@+id/tvPresupuesto_inicial"
         style="@style/campo_entrada_presupuesto"
         tools:text="@string/valor_generico"/>
@@ -28,6 +29,7 @@
 
     <TextView
         android:id="@+id/tvPresupuesto_actual"
+        android:hint="presupuesto actual"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         style="@style/campo_entrada"
@@ -36,6 +38,7 @@
     <ImageView
         android:id="@+id/btn_historial"
         style="@style/base_datos"
+        android:onClick="irHistorial"
         android:contentDescription="@string/acceso_a_historial_de_gastos"
         app:srcCompat="@drawable/dise_o_sin_t_tulo"/>
 
@@ -45,6 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:onClick="irIntroducir"
         android:text="@string/introducir"
         android:textColor="@color/blanco" />
 </LinearLayout>

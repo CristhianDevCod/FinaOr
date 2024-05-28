@@ -48,11 +48,13 @@
         <EditText
             android:id="@+id/etDias"
             tools:text="1"
+            android:hint="1"
             android:textSize="@dimen/tx_grande_3"
             android:inputType="number"
             style="@style/campo_entrada"
             android:layout_width="70dp"
-            android:layout_height="70dp"/>
+            android:layout_height="70dp"
+            tools:ignore="HardcodedText" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -64,6 +66,7 @@
 
     <Button
         android:id="@+id/btnIniciar"
+        android:onClick="irActualizacion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/mg_grande_2"
