@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main_presupuesto)
         }, 3000)
     }
-        fun irActualizacion(view : View){
-            val intent = Intent(this, actualizacion::class.java).apply {  }
-            startActivity(intent)
-        }
+    fun irActualizacion(view : View){
+        val intent = Intent(this, actualizacion::class.java).apply {  }
+        startActivity(intent)
+    }
 }

@@ -82,6 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:backgroundTint="@color/tercero"
                 style="@style/texto_centrado"
                 android:textColor="@color/blanco"
                 android:text="Fecha"
@@ -134,6 +135,7 @@
     <Button
         android:id="@+id/btn_introducir_gasto"
         android:layout_width="wrap_content"
+        android:backgroundTint="@color/tercero"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:onClick="irActualizacion"
